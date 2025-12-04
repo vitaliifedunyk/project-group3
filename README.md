@@ -83,7 +83,7 @@ README.md: Інструкція для учасників проекту
 
 ---
 
-### 5. Інформація про Команду (Заповнюється учасниками)
+### 5. Інформація про Команду
 
 | Ім'я та Прізвище / Нік | Роль у Проекті   |
 | :--------------------- | :--------------- |
@@ -96,3 +96,23 @@ README.md: Інструкція для учасників проекту
 | Slava S                | Developer        |
 | Stanislaw.             | Developer        |
 | Vladislav Petrov       | Developer        |
+
+---
+
+### 6. Корисна Інформація
+
+Макет проекту -
+https://www.figma.com/design/RCf95cRtisUxC8gsNFAFAp/EcoTote?node-id=5999-10563&t=nWranbIbojsrBZff-1
+
+Технічні вимоги до проєкту -
+https://docs.google.com/spreadsheets/d/1cjTCqYsdTgFdQEhpCfu-b9m1uorSlAUOegU3T4HzVOQ/edit?gid=0#gid=0
+
+Як здати ДЗ по проєкту в LMS - https://youtu.be/9Ts2LBsdQfU
+
+Інструкція роботи з бандлером Vite - https://youtu.be/Ic-pOK4pqOk
+
+Про роботу з репозиторієм через термінал -
+https://youtu.be/wFY5HVuQBgw?si=V4sPSgb4cwhu-XKx
+
+Презентація: Матеріали до командного проєкту з HTML+CSS (FullStack) -
+https://docs.google.com/presentation/d/1_QpjBvS2UnU_OKJUgzx6eXqTZVXrOFRJ/edit?slide=id.p1#slide=id.p1
