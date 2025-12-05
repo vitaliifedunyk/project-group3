@@ -1,0 +1,104 @@
+/* ========== FOOTER MAIN CONTAINER ========== */
+
+.footer {
+    width: 100%;
+    background-color: #7edc8c;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__inner {
+    width: 320px;
+    min-height: 863px;
+    padding: 48px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    box-sizing: border-box;
+}
+
+/* ========== LOGO ========== */
+
+.footer__logo img {
+    width: 281px;
+    height: auto;
+    display: block;
+}
+
+/* ========== NAVIGATION ========== */
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+.footer__nav a {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0;
+    color: #000;
+    text-decoration: none;
+}
+
+/* ========== SOCIAL ICONS ========== */
+
+.footer__socials {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__socials a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__socials a svg {
+    width: 32px !important;
+    height: 32px !important;
+    object-fit: contain;
+    fill: #000;
+    stroke: #000;
+}
+
+/* ========== CONTACTS ========== */
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: -8px;
+}
+
+.footer__contact p {
+    margin: 0;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0;
+    color: #000;
+}
+
+/* ========== COPYRIGHT ========== */
+
+.footer__rights {
+    margin-top: -16px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0;
+    color: #000;
+    text-align: center;
+}
