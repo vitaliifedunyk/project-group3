@@ -30,18 +30,28 @@
       <load src="./partials/support.html" />
       <section class="support">
   <div class="container">
-    <h2>Залишились питання? Зв'яжіться з нами!</h2>
-    <p>Ми тут, щоб допомогти!</p>
+    <div class="container-info">
+    <h2 class="head-text">Залишились питання? Зв'яжіться з нами!</h2>
+    <p class="abzaz-text">Ми тут, щоб допомогти!</p>
+    </div>
     <form action="#" method="POST" class="contact-form">
+      <div>
+        <div>
             <label class="contact-form-text" for="name">Ім'я</label>
-            <input class="contact-form-chek" type="text" id="name" name="name" value="Іван" placeholder="Введіть ваше ім'я">
-
+            <div>
+              <input class="contact-form-chek" type="text" id="name" name="name" value="Іван" placeholder="Введіть ваше ім'я">
+            </div>
+            </div>
+      <div>
             <label class="contact-form-text" for="email">Електронна пошта</label>
+      <div>
             <input class="contact-form-chek" type="email" id="email" name="email" value="hello@ecotote.com" placeholder="Введіть вашу пошту">
-
+            </div>
+            </div>
+       <div>
             <label class="contact-form-text" for="message">Повідомлення</label>
-            <textarea class="contact-form-chek" id="message" name="message" rows="5" placeholder="Введіть своє повідомлення..."></textarea>
-
+            <textarea class="contact-form-textarea" id="message" name="message" rows="5" placeholder="Введіть своє повідомлення..."></textarea>
+        </div>
             <button type="submit" class="submit-button">Надіслати</button>
         </form>
 
