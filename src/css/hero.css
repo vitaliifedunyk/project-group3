@@ -1,2 +1,41 @@
 /* Hero section styles */
 
+.container .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 64px 16px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+ .hero-text {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+ }
+
+ .hero-button {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding-block: 12px;
+  padding-inline: 24px;
+  width: 288px;
+  height: 50px;
+  background-color: #030a06;
+ }

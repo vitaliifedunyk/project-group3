@@ -1,3 +1,35 @@
 <section class="hero">
-  <div class="container"></div>
+  <div class="container hero">
+    <h1 class="hero-title">EcoTote — Стиль, що не шкодить планеті.</h1>
+
+    <p class="hero-text">
+      Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та
+      відповідальність разом з EcoTote.
+    </p>
+
+    <button class="hero-button" type="button">Купити зараз</button>
+
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          ./img/hero/desktop/hero.jpg    1x,
+          ./img/hero/desktop/hero@x2.jpg 2x
+        "
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="./img/hero/tablet/hero.jpg 1x, ./img/hero/tablet/hero@x2.jpg 2x"
+      />
+
+      <img
+        src="./img/hero/mobile/hero.jpg"
+        srcset="./img/hero/mobile/hero.jpg 1x, ./img/hero/mobile/hero@x2.jpg 2x"
+        alt="Екологічна сумка EcoTote"
+        width="288"
+        height="285"
+      />
+    </picture>
+  </div>
 </section>
