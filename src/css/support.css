@@ -1,2 +1,37 @@
 /* Support section styles */
 
+.contact-form {
+    margin-bottom: 24px;
+}
+
+.submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+    background: #030a06;
+    border: 1px solid #030a06;
+    border-radius: 6px;
+    padding-block: 12px;
+    padding-inline: 24px;
+    width: 288px;
+    height: 50px;
+    color: #fff;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
+        padding: 0 64px;
+    }
+}
