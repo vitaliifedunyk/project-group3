@@ -1,3 +1,75 @@
 <section class="support">
-  <div class="container"></div>
+  <div class="container support-container">
+    <div class="support-left">
+      <div class="support-info">
+        <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
+        <p class="support-subtitle">Ми тут, щоб допомогти!</p>
+      </div>
+
+      <form action="#" method="POST" class="support-form">
+        <div class="support-field">
+          <label class="support-label" for="name">Ім'я</label>
+          <input
+            class="support-input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Введіть ваше ім’я"
+          />
+          <p class="support-error"></p>
+        </div>
+
+        <div class="support-field">
+          <label class="support-label" for="email">Електронна пошта</label>
+          <input
+            class="support-input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Введіть вашу пошту"
+          />
+          <p class="support-error"></p>
+        </div>
+
+        <div class="support-field">
+          <label class="support-label" for="message">Повідомлення</label>
+          <textarea
+            class="support-textarea"
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Введіть своє повідомлення..."
+          ></textarea>
+          <p class="support-error"></p>
+        </div>
+
+        <button type="submit" class="support-button">Надіслати</button>
+      </form>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="support-image">
+      <picture>
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            ./img/support/desktop/support.png    1x,
+            ./img/support/desktop/support@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/support/tablet/support.png    1x,
+            ./img/support/tablet/support@2x.png 2x
+          "
+        />
+        <img
+          class="support-photo"
+          src="./img/support/mobile/support.png"
+          alt="Еко сумка на столі"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
