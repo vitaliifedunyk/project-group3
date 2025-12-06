@@ -13,6 +13,8 @@
     text-align: center;
     color: #030a06;
     margin-bottom: 32px;
+
+    font-family: "Comfortaa", sans-serif;
 }
 
 .assortment-list {
@@ -141,6 +143,10 @@
 @media (min-width: 1440px){
     .assortment-container {
         max-width: 1440px;
+    }
+
+    .assortment-title {
+        font-size: 48px;
     }
 
     .assortment-list {
