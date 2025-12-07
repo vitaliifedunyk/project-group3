@@ -156,11 +156,6 @@
     flex-direction: row;
     gap: 32px;
   }
-
-  .footer-contact a {
-    font-size: 14px;
-    font-style: normal;
-  }
 }
 
 @media (min-width: 1440px) {
@@ -243,12 +238,6 @@
     justify-content: center;
     align-items: center;
     gap: 32px;
-  }
-
-  .footer-contact a {
-    font-size: 14px;
-    font-style: normal;
-    line-height: 26px;
   }
 
   .footer-contact a:hover,
