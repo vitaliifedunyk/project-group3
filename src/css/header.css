@@ -1,5 +1,3 @@
-/* ========== HEADER ========== */
-
 .header {
   width: 100%;
   background-color: #72d272;
@@ -12,8 +10,6 @@
   padding: 16px 0;
 }
 
-/* ========== LOGO ========== */
-
 .header-logo {
   display: flex;
   align-items: center;
@@ -25,8 +21,6 @@
   height: 70px;
   display: block;
 }
-
-/* ========== NAVIGATION (Desktop) ========== */
 
 .header-nav {
   display: none;
@@ -42,8 +36,6 @@
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ========== CONTACT INFO (Desktop) ========== */
-
 .header-contact {
   display: none;
   font-style: normal;
@@ -58,8 +50,6 @@
   text-decoration: none;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* ========== BURGER BUTTON ========== */
 
 .header-burger {
   display: flex;
@@ -78,8 +68,6 @@
   display: block;
 }
 
-/* ================= TABLET 768px ================= */
-
 @media (min-width: 768px) {
   .header-wrapper {
     padding: 20px 0;
@@ -94,8 +82,6 @@
     display: flex;
   }
 }
-
-/* ================= DESKTOP 1440px ================= */
 
 @media (min-width: 1440px) {
   .header-wrapper {
