@@ -159,6 +159,11 @@
 
   .advantage-quality {
     margin-bottom: 8px;
+    width: 340px;
+  }
+
+  .advantage-quality-wide {
+    width: 100%;
   }
 
   .quality-title {

@@ -115,6 +115,7 @@
   line-height: 1.6;
   color: #030a06;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 /* ================= TABLET 768px (PIXEL PERFECT) ================= */
@@ -209,7 +210,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 32px;
   }
 
   .footer-divider {
