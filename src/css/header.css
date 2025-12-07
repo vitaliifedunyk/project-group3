@@ -1,2 +1,153 @@
-/* В самому низу після всіх стилів */
-@import url('./menu.css');
+/* ========== HEADER ========== */
+
+.header {
+  width: 100%;
+  background-color: #72d272;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+/* ========== LOGO ========== */
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-logo img {
+  width: 164px;
+  height: 70px;
+  display: block;
+}
+
+/* ========== NAVIGATION (Desktop) ========== */
+
+.header-nav {
+  display: none;
+}
+
+.header-nav-link {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #030a06;
+  text-decoration: none;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ========== CONTACT INFO (Desktop) ========== */
+
+.header-contact {
+  display: none;
+  font-style: normal;
+}
+
+.header-contact-link {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #030a06;
+  text-decoration: none;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ========== BURGER BUTTON ========== */
+
+.header-burger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-burger-icon {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
+/* ================= TABLET 768px ================= */
+
+@media (min-width: 768px) {
+  .header-wrapper {
+    padding: 20px 0;
+  }
+
+  .header-logo img {
+    width: 164px;
+    height: 70px;
+  }
+
+  .header-burger {
+    display: flex;
+  }
+}
+
+/* ================= DESKTOP 1440px ================= */
+
+@media (min-width: 1440px) {
+  .header-wrapper {
+    padding: 24px 0;
+    gap: 40px;
+  }
+
+  .header-logo {
+    flex-shrink: 0;
+  }
+
+  .header-logo img {
+    width: 164px;
+    height: 70px;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+    text-decoration: underline;
+  }
+
+  .header-nav-link:active {
+    color: #3ac04c;
+    text-decoration: underline;
+  }
+
+  .header-contact {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+  }
+
+  .header-contact-link:hover,
+  .header-contact-link:focus {
+    text-decoration: underline;
+  }
+
+  .header-contact-link:active {
+    color: #3ac04c;
+    text-decoration: underline;
+  }
+
+  .header-burger {
+    display: none;
+  }
+}

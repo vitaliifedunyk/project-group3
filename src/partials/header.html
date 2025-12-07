@@ -1,3 +1,42 @@
 <header class="header">
-  <div class="container"></div>
+  <div class="container">
+    <div class="header-wrapper">
+      <!-- LOGO -->
+      <a href="/" class="header-logo">
+        <img src="./img/logo.svg" alt="EcoTote Logo" />
+      </a>
+
+      <!-- NAVIGATION (Desktop) -->
+      <nav class="header-nav">
+        <a href="#about" class="header-nav-link">Про нас</a>
+        <a href="#advantages" class="header-nav-link">Переваги</a>
+        <a href="#products" class="header-nav-link">Асортимент</a>
+        <a href="#gallery" class="header-nav-link">Галерея</a>
+        <a href="#reviews" class="header-nav-link">Відгуки</a>
+        <a href="#contacts" class="header-nav-link">Контакти</a>
+      </nav>
+
+      <!-- CONTACT INFO (Desktop) -->
+      <address class="header-contact">
+        <a href="tel:+380999091122" class="header-contact-link"
+          >+38 (099) 909 11 22</a
+        >
+        <a href="mailto:hello@ecotote.com" class="header-contact-link"
+          >hello@ecotote.com</a
+        >
+      </address>
+
+      <!-- BURGER BUTTON (Mobile/Tablet) -->
+      <button
+        type="button"
+        class="header-burger"
+        aria-label="Відкрити меню"
+        data-menu-open
+      >
+        <svg class="header-burger-icon" width="32" height="32">
+          <use href="./img/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
 </header>
