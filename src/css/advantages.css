@@ -1,2 +1,220 @@
 /* Advantages section styles */
+.advantages-of-bags {
+  padding: 32px 16px;
+}
+
+.advantages-section {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 48px;
+}
+
+.advantages-label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+
+.advantages-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 48px;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 320px;
+}
+
+.advantages-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+
+}
+
+.image-container {
+  width: 100%;
+  max-width: 288px;
+  border-radius: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-bottom: 8px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  object-fit: cover;
+  display: block;
+  
+}
+
+.content-info {
+  width: 100%;
+  text-align: left;
+}
+
+.advantage-quality {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.advantage-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Tablet styles */
+
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+
+  .advantages-of-bags {
+  padding: 64px 32px;
+}
+.advantages-section {
+  width: 704px;
+  height: 100%;
+  margin: 0 auto 64px;
+  
+}
+
+.advantages-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    max-width: 704px;
+  }
+
+.advantages-item {
+    width: calc((100% - 32px) / 2); 
+    text-align: left;
+    align-items: flex-start;
+    flex-direction: column;  
+    flex-wrap: nowrap;
+    
+  }
+
+ .wide-item {
+    width: 100%;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .advantages-item .image-container {
+    width: 100%;
+    height: 201px; 
+    max-width: none; 
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+
+
+  .wide-item .image-container {
+    width: 100%;
+    height: 416px; 
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 32px;
+  }
+
+.advantages-label {
+  margin-bottom: 16px;
+}
+
+.advantages-title {
+  margin-bottom: 24px;
+}
+
+.advantages-text { 
+    font-size: 18px;
+}
+}
+ 
+
+/* Desktop styles */
+
+@media only screen and (min-width: 1440px) {
+
+  .advantages-of-bags {
+    padding: 64px;
+  }
+
+  .advantages-section {
+    max-width: 704px;       
+    text-align: left;
+  }
+
+.advantages-title{
+     width: 768px;
+} 
+.advantages-text {
+  width: 768px;
+  margin-bottom: 80px; }
+
+
+  .advantage-quality {
+      margin-bottom: 24px;
+}
+  .advantages-list {
+    flex-direction: row;             
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    max-width: 1312px;                      
+  }
+
+  .advantages-item {
+    width: calc((100% - 48px) / 3);   
+  }
+
+  .advantages-item .image-container {
+    width: 100%;
+    height: 249px;
+    max-width: none;
+    flex-shrink: 0;
+  }
+
+  .advantages-item .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+  
+
+
+
+
 
