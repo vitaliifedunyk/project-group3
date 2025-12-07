@@ -14,9 +14,13 @@
             type="text"
             id="name"
             name="name"
-            placeholder="Введіть ваше ім'я"
+            placeholder="Іван"
+            minlength="5"
+            maxlength="64"
+            required
           />
-          <!--        <p class="support-error"></p> -->
+          <p class="support-error support-error-invalid">Error text</p>
+          <p class="support-error support-error-valid">Correct text</p>
         </div>
 
         <div class="support-field">
@@ -26,9 +30,12 @@
             type="email"
             id="email"
             name="email"
-            placeholder="Введіть вашу пошту"
+            placeholder="hello@ecotote.com"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            required
           />
-          <!--        <p class="support-error"></p> -->
+          <p class="support-error support-error-invalid">Error text</p>
+          <p class="support-error support-error-valid">Correct text</p>
         </div>
 
         <div class="support-field">
@@ -37,10 +44,9 @@
             class="support-textarea"
             id="message"
             name="message"
-            rows="5"
+            max="500"
             placeholder="Введіть своє повідомлення..."
           ></textarea>
-          <!--       <p class="support-error"></p> -->
         </div>
 
         <button type="submit" class="support-button">Надіслати</button>
@@ -71,7 +77,7 @@
           "
         />
         <img
-          class="support-photo"
+          class="support-img"
           src="./img/support/mobile/support.png"
           alt="Еко сумка на столі"
         />
