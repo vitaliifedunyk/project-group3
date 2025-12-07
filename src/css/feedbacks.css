@@ -1,101 +1,98 @@
 /* Feedbacks section styles */
 
 .feedbacks {
-    padding: 32px 0;  
+  padding: 32px 0;
 }
 
 .feedbacks-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 0.01em;
-    text-align: center;
-    color: #030a06;
-    margin-bottom: 32px;
-    max-width: 288px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 32px;
+  max-width: 288px;
 }
 
 .feedbacks-list {
- display: flex;
- flex-direction: column;
- gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .feedbacks-item {
- display: flex;
- flex-direction: column;
- gap: 12px;
- width: 100%
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
 }
 
 .feedbacks-list-stars {
- display: flex;
- flex-direction: row;
- gap: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
 }
 
 .feedbacks-icon-star {
-    fill: #3AC04C;
+  fill: #3ac04c;
 }
 
 .feedbacks-text-content {
-    display: block;
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.4;
-    letter-spacing: 0.01em;
-    color: #030a06;
+  display: block;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #030a06;
 }
 
 .feedbacks-name {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #030a06;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
 }
 
 @media screen and (min-width: 768px) {
-.feedbacks {
-        padding: 64px 0;
-    }
+  .feedbacks {
+    padding: 64px 0;
+  }
 
-.feedbacks-title {
+  .feedbacks-title {
     max-width: 560px;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
-.feedbacks-list {
+  .feedbacks-list {
     justify-content: center;
-    flex-direction: row; 
+    flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 32px;
-}
+  }
 
-.feedbacks-item {
+  .feedbacks-item {
     width: calc((100% - 24px) / 2);
     gap: 24px;
-}
+  }
 
-.feedbacks-name {
+  .feedbacks-name {
     margin-top: auto;
-}
+  }
 }
 
 @media screen and (min-width: 1440px) {
-.feedbacks-title {
+  .feedbacks-title {
     font-size: 48px;
     margin-bottom: 80px;
     max-height: 116px;
-}
+  }
 
-.feedbacks-list {
+  .feedbacks-list {
     flex-wrap: nowrap;
+  }
 }
-
-}
-
-
