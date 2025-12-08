@@ -172,7 +172,7 @@
   margin-top: 24px;
   width: 100%;
   height: 428px;
-  background-image: url('/img/support/mobile/support.png');
+  background-image: url('/img/support/mobile/support.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -180,7 +180,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .support-image {
-    background-image: url('/img/support/mobile/support@2x.png');
+    background-image: url('/img/support/mobile/support@2x.webp');
   }
 }
 
@@ -200,12 +200,12 @@
   .support-image {
     margin-top: 0;
     height: 428px;
-    background-image: url('/img/support/tablet/support.png');
+    background-image: url('/img/support/tablet/support.webp');
   }
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .support-image {
-      background-image: url('/img/support/tablet/support@2x.png');
+      background-image: url('/img/support/tablet/support@2x.webp');
     }
   }
 }
@@ -224,12 +224,12 @@
   .support-image {
     width: 644px;
     height: 767px;
-    background-image: url('/img/support/desktop/support.png');
+    background-image: url('/img/support/desktop/support.webp');
   }
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .support-image {
-      background-image: url('/img/support/desktop/support@2x.png');
+      background-image: url('/img/support/desktop/support@2x.webp');
     }
   }
 
