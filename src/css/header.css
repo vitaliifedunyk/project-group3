@@ -14,6 +14,11 @@
   justify-content: space-between;
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   display: flex;
   align-items: center;
@@ -26,8 +31,11 @@
   display: block;
 }
 
-.header-nav {
+.header-nav-list {
   display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header-nav-link {
@@ -95,8 +103,14 @@
   .header-nav {
     display: flex;
     align-items: center;
+    gap: 175px;
+  }
+
+  .header-nav-list {
+    display: flex;
+    align-items: center;
     gap: 32px;
-    justify-content: center;
+    list-style: none;
   }
 
   .header-nav-link:hover,

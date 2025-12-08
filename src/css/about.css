@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.4) 0%,
       rgba(0, 0, 0, 0.2) 100%
     ),
-    url('../img/about/mobile/about.jpg');
+    url('../img/about/mobile/about.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@
         rgba(0, 0, 0, 0.4) 0%,
         rgba(0, 0, 0, 0.2) 100%
       ),
-      url('../img/about/tablet/about.jpg');
+      url('../img/about/tablet/about.webp');
     padding: 80px 0;
   }
 
@@ -83,7 +83,7 @@
         rgba(0, 0, 0, 0.4) 0%,
         rgba(0, 0, 0, 0.2) 100%
       ),
-      url('../img/about/desktop/about.jpg');
+      url('../img/about/desktop/about.webp');
     padding: 112px 0;
   }
 
@@ -114,7 +114,7 @@
         rgba(0, 0, 0, 0.4) 0%,
         rgba(0, 0, 0, 0.2) 100%
       ),
-      url('../img/about/mobile/about@2x.jpg');
+      url('../img/about/mobile/about@2x.webp');
   }
 
   @media only screen and (min-width: 768px) {
@@ -124,7 +124,7 @@
           rgba(0, 0, 0, 0.4) 0%,
           rgba(0, 0, 0, 0.2) 100%
         ),
-        url('../img/about/tablet/about@2x.jpg');
+        url('../img/about/tablet/about@2x.webp');
     }
   }
 
@@ -135,7 +135,7 @@
           rgba(0, 0, 0, 0.4) 0%,
           rgba(0, 0, 0, 0.2) 100%
         ),
-        url('../img/about/desktop/about@2x.jpg');
+        url('../img/about/desktop/about@2x.webp');
     }
   }
 }
