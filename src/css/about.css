@@ -1,1 +1,141 @@
 /* About section styles */
+
+.about {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url('../img/about/mobile/about.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 64px 0;
+  display: flex;
+  align-items: center;
+}
+
+.about-content {
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-label {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.about-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 288px;
+  margin: 0 auto;
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 768px) {
+  .about {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url('../img/about/tablet/about.jpg');
+    padding: 80px 0;
+  }
+
+  .about-label {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .about-title {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .about-description {
+    font-size: 18px;
+    max-width: 573px;
+  }
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1440px) {
+  .about {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url('../img/about/desktop/about.jpg');
+    padding: 112px 0;
+  }
+
+  .about-label {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .about-title {
+    font-size: 56px;
+    margin-bottom: 24px;
+    max-width: 630px;
+  }
+
+  .about-description {
+    font-size: 18px;
+    max-width: 580px;
+  }
+}
+
+/* Retina display support */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .about {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url('../img/about/mobile/about@2x.jpg');
+  }
+
+  @media only screen and (min-width: 768px) {
+    .about {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0.2) 100%
+        ),
+        url('../img/about/tablet/about@2x.jpg');
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .about {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0.2) 100%
+        ),
+        url('../img/about/desktop/about@2x.jpg');
+    }
+  }
+}
