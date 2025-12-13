@@ -10,7 +10,7 @@ const logoLinks = document.querySelectorAll(
 logoLinks.forEach(logo => {
   logo.addEventListener('click', e => {
     e.preventDefault();
-    window.location.href = '/';
+    window.location.href = '/index.html';
   });
 });
 
