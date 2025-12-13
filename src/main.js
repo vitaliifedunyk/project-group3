@@ -3,6 +3,17 @@ const menuOpenBtn = document.querySelector('[data-menu-open]');
 const menuCloseBtn = document.querySelector('[data-menu-close]');
 const menuNavLinks = document.querySelectorAll('.menu-nav-link');
 
+// Обробка кліку на логотип для перезавантаження сторінки
+const logoLinks = document.querySelectorAll(
+  '.header-logo, .footer-logo, .menu-logo'
+);
+logoLinks.forEach(logo => {
+  logo.addEventListener('click', e => {
+    e.preventDefault();
+    window.location.href = '/';
+  });
+});
+
 // Функція для закриття меню
 const closeMenu = () => {
   if (menu) {
